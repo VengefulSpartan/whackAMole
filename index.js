@@ -10,7 +10,7 @@ function initGame() {
         document.getElementById("board").appendChild(tile);
         tile.addEventListener("click",selectTile)
     }
-    setInterval(setMole,5000);
+    setInterval(setMole,1000);
     setInterval(setPiranha,2000);
 }
 function randomTile(){
